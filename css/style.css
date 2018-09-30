@@ -122,7 +122,8 @@ color: #000 !important;
 {
     max-height: 500px;
     position: relative;
-    
+    min-height: 200px;
+   
 }
 
 .abscuve
@@ -137,6 +138,20 @@ color: #000 !important;
     bottom: 0;
     left: 0;    
     
+}
+
+
+.flipcurve
+{
+    background: url(../images/header-svg-flip.svg) no-repeat center top;
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;  
 }
 
 
@@ -564,3 +579,17 @@ padding-right:20px;
 {
     background: #0D3A68;
 }
+
+.leftnavigation  a
+{
+    padding: 0.3em 1em !important;
+}
+
+.thumbgrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+    
+}
+
